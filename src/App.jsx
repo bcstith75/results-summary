@@ -1,7 +1,7 @@
-import reactionImg from './assets/images/icon-reaction.svg';
-import memoryImg from './assets/images/icon-memory.svg';
-import verbalImg from './assets/images/icon-verbal.svg';
-import visualImg from './assets/images/icon-visual.svg';
+import reactionImg from './public/images/icon-reaction.svg';
+import memoryImg from './public/images/icon-memory.svg';
+import verbalImg from './public/images/icon-verbal.svg';
+import visualImg from './public/images/icon-visual.svg';
 
 import data from './data.json';
 
