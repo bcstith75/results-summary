@@ -35,10 +35,10 @@ function App() {
           {
             data.map((item, index) => {
               return (
-                <div className={`${item.background} p-2 items-center rounded-lg flex flex-row justify-between`}>
+                <div className={`p-2 items-center rounded-l ${item.background} flex flex-row justify-between`}>
                   <div className="flex flex-row items-center">
                     <img src={item.icon} alt="" className='h-9 w-9 pr-3'/>
-                    <div className="{`font-semibold ${text-color} text-lg`}">{item.category}</div>
+                    <div className={`font-semibold ${item.color} text-lg`}>{item.category}</div>
                   </div>
 
                   <div className="font-semibold text-black text-lg">
